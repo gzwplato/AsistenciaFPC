@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="Asistencia"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="8">
+      <Item1>
+        <PackageName Value="pl_bgracontrols"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="pl_openwire"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="pl_luicontrols"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="pl_excontrols"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="pl_visualplanit"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="FCL"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="SQLDBLaz"/>
+      </Item7>
+      <Item8>
+        <PackageName Value="LCL"/>
+      </Item8>
+    </RequiredPackages>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="Asistencia.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Asistencia"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="formprincipal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formPrincipal"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="formempleados.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmEmpleados"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formempleados"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="dmdata.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DModule"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="dmData"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="formhorarios.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmHorarios"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formhorarios"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="formlogin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formlogin"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="forminfempleados.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmInfEmpleados"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="forminfempleados"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="forminfasistencias.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmInfAsistencias"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="forminfasistencias"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="forminfinasistencias.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmInfInasistencias"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="forminfinasistencias"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="formacercade.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAcerca"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formacercade"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="formasistencia.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAsistencia"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formasistencia"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="formjustificaciones.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmJustificaciones"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formjustificaciones"/>
+      </Unit11>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="Asistencia"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <MsgFileName Value=""/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

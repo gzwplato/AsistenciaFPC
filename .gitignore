@@ -1,0 +1,15 @@
+DEBUILD/
+forms/
+lib/
+img/
+*.sh
+inventario.app/
+backup/
+Asistencia
+*.exe
+img/
+pruebas/
+asistencia.zip
+sqlite3.dll
+Pruebas/
+core
