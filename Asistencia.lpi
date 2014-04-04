@@ -27,33 +27,57 @@
         <FormatVersion Value="1"/>
       </local>
     </RunParams>
-    <RequiredPackages Count="8">
+    <RequiredPackages Count="16">
       <Item1>
-        <PackageName Value="pl_bgracontrols"/>
+        <PackageName Value="pl_graphics32"/>
       </Item1>
       <Item2>
-        <PackageName Value="pl_openwire"/>
+        <PackageName Value="pl_glscene"/>
       </Item2>
       <Item3>
-        <PackageName Value="pl_luicontrols"/>
+        <PackageName Value="pl_jvcl"/>
       </Item3>
       <Item4>
-        <PackageName Value="pl_excontrols"/>
+        <PackageName Value="pl_cindy"/>
       </Item4>
       <Item5>
-        <PackageName Value="pl_visualplanit"/>
+        <PackageName Value="pl_geogis"/>
       </Item5>
       <Item6>
-        <PackageName Value="FCL"/>
+        <PackageName Value="TAChartLazarusPkg"/>
       </Item6>
       <Item7>
-        <PackageName Value="SQLDBLaz"/>
+        <PackageName Value="RunTimeTypeInfoControls"/>
       </Item7>
       <Item8>
-        <PackageName Value="LCL"/>
+        <PackageName Value="pl_spktoolbar"/>
       </Item8>
+      <Item9>
+        <PackageName Value="pl_bgracontrols"/>
+      </Item9>
+      <Item10>
+        <PackageName Value="pl_openwire"/>
+      </Item10>
+      <Item11>
+        <PackageName Value="pl_luicontrols"/>
+      </Item11>
+      <Item12>
+        <PackageName Value="pl_excontrols"/>
+      </Item12>
+      <Item13>
+        <PackageName Value="pl_visualplanit"/>
+      </Item13>
+      <Item14>
+        <PackageName Value="FCL"/>
+      </Item14>
+      <Item15>
+        <PackageName Value="SQLDBLaz"/>
+      </Item15>
+      <Item16>
+        <PackageName Value="LCL"/>
+      </Item16>
     </RequiredPackages>
-    <Units Count="12">
+    <Units Count="13">
       <Unit0>
         <Filename Value="Asistencia.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -147,6 +171,14 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="formjustificaciones"/>
       </Unit11>
+      <Unit12>
+        <Filename Value="formprueba.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formprueba"/>
+      </Unit12>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

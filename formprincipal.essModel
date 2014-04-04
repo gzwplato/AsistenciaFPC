@@ -1,0 +1,37 @@
+[Box:  - ::formacercade]
+X=970
+Y=125
+
+[Box:  - ::formempleados]
+X=400
+Y=125
+
+[Box:  - ::formhorarios]
+X=210
+Y=125
+
+[Box:  - ::forminfasistencias]
+X=590
+Y=125
+
+[Box:  - ::forminfempleados]
+X=20
+Y=125
+
+[Box:  - ::forminfinasistencias]
+X=1160
+Y=125
+
+[Box:  - ::formjustificaciones]
+X=780
+Y=125
+
+[Box:  - ::formPrincipal]
+X=590
+Y=40
+
+[Diagram: ]
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowAssoc=0

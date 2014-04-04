@@ -91,10 +91,10 @@ begin
     if Ban then
     begin
          try
-             vPrincipal := TfrmPrincipal.Create(nil);
-             vPrincipal.ShowModal;
+
+             frmPrincipal.ShowModal;
          finally
-             vPrincipal.free;
+             frmPrincipal.free;
              self.close;
          end;
     end

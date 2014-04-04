@@ -1,8 +1,9 @@
 object frmLogin: TfrmLogin
-  Left = 557
+  Left = 503
   Height = 337
-  Top = 275
+  Top = 245
   Width = 590
+  ActiveControl = editUsuario
   BorderStyle = bsNone
   Caption = 'Asistencia'
   ClientHeight = 337

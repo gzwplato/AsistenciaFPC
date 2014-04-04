@@ -87,10 +87,11 @@ begin
                 CerrarConexion();
                 SQLQuery.SQL.Text:= 'SELECT * FROM empleados WHERE id = "'+editCedula.Text+'"';
                 AbrirConexion();
-                imgFoto.Picture.LoadFromFile(Data.SQLQuery.FieldByName('foto').AsString);
+
             end;
          if editCedula.Text = Data.SQLQuery.FieldByName('id').AsString then //Si existe el empleado
            begin
+           imgFoto.Picture.LoadFromFile(Data.SQLQuery.FieldByName('foto').AsString);
            if cant_reg = 2 then   //verifica estus de asistencias del empleado.
              begin
                   ShowMessage('Ya usted marco asistencia y salida este dia');
@@ -132,8 +133,12 @@ begin
              end;
             end;
            end
-         else
+           else
+           begin
              ShowMessage('Empleado no Existe');
+             editCedula.Clear;
+             editCedula.SetFocus;
+           end;
     end
   else
       ShowMessage('Introduzca la cedula');
